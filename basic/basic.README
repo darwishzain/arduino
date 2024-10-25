@@ -1,0 +1,66 @@
+by @enginerdmath (youtube/facebook)
+# Arduino Basics
+## Bare Minimum
+```
+void setup(){
+	//put your setup code here, to run once
+}
+void loop(){
+	//put your main code here, to run repeatedly
+}
+```
+
+## Turning LED On/Off
+### Turning LED On
+```
+void setup(){
+	//put your setup code here, to run once
+	pinMode(13,OUTPUT);
+}
+void loop(){
+	//put your main code here, to run repeatedly
+	digitalWrite(13,HIGH)
+}
+```
+### Turning LED Off
+```
+void setup(){
+	//put your setup code here, to run once
+	pinMode(13,OUTPUT);
+}
+void loop(){
+	//put your main code here, to run repeatedly
+	digitalWrite(13,LOW)
+}
+```
+
+## Using Variables
+int:integers
+float:decimals
+string:letters/words
+
+Create a program that will blink an LED 3 times at 250 ms delay, then blink 3 times at delay of 750 ms, then blink again 3 times at 250 ms delay.
+```
+int greenLED = 8;
+int fast = 250;
+int slow = 750;
+int pause = 1000;
+float pi = 3.14;
+string word = "Arduino Basic";
+void setup(){
+	//put your setup code here, to run once
+	pinMode(greenLED,OUTPUT);
+}
+void loop(){
+	//put your main code here, to run repeatedly
+	digitalWrite(greenLED,HIGH);
+	delay(fast);
+	digitalWrite(greenLED,HIGH);
+	delay(fast);
+	digitalWrite(greenLED,HIGH);
+	delay(fast);
+	digitalWrite(greenLED,HIGH);
+	delay(slow);
+}
+```
+

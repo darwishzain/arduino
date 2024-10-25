@@ -1,0 +1,21 @@
+<circuit type="simulide_0.1">
+ 
+Arduino Uno-11: 
+<item objectName="Arduino Uno-11" valLabelx="0" y="-516" valLabRot="0" Show_id="true" x="-868" program="" rotation="0" Mhz="16" labelrot="0" hflip="1" labelx="0" itemtype="Arduino" id="Arduino Uno-11" labely="-20" valLabely="0" vflip="1"/>
+ 
+Resistor-3: 
+<item valLabely="6" vflip="1" Show_res="true" rotation="0" hflip="1" Resistance="100" labely="-24" id="R1" y="-404" Show_id="true" objectName="Resistor-3" valLabRot="0" Unit=" Ω" labelx="-12" x="-908" labelrot="0" itemtype="Resistor" valLabelx="-16"/>
+ 
+Led-1: 
+<item valLabely="0" vflip="1" MaxCurrent="0.03" Grounded="false" rotation="0" hflip="1" Resistance="0.6" labely="-24" id="Led-1" y="-348" Show_id="false" objectName="Led-1" Color="0" valLabRot="0" labelx="-16" threshold="2.4" x="-908" labelrot="0" itemtype="Led" valLabelx="0"/>
+ 
+Connector-13: 
+<item valLabely="0" vflip="1" rotation="0" pointList="-860,-388,-876,-388,-876,-404,-892,-404" hflip="1" enodeid="enode-13" labely="-24" id="Connector-13" y="-388" Show_id="false" objectName="Connector-13" endpinid="Resistor-3-rPin" startpinid="Arduino Uno-11-PB5" valLabRot="0" labelx="-16" x="-860" labelrot="0" itemtype="Connector" valLabelx="0"/>
+ 
+Connector-14: 
+<item valLabely="0" vflip="1" rotation="0" pointList="-860,-380,-876,-380,-876,-348,-892,-348" hflip="1" enodeid="enode-14" labely="-24" id="Connector-14" y="-380" Show_id="false" objectName="Connector-14" endpinid="Led-1-rPin" startpinid="Arduino Uno-11-GND0" valLabRot="0" labelx="-16" x="-860" labelrot="0" itemtype="Connector" valLabelx="0"/>
+ 
+Connector-15: 
+<item valLabely="0" vflip="1" rotation="0" pointList="-924,-404,-940,-404,-940,-348,-924,-348" hflip="1" enodeid="enode-15" labely="-24" id="Connector-15" y="-404" Show_id="false" objectName="Connector-15" endpinid="Led-1-lPin" startpinid="Resistor-3-lPin" valLabRot="0" labelx="-16" x="-924" labelrot="0" itemtype="Connector" valLabelx="0"/>
+ 
+</circuit>
