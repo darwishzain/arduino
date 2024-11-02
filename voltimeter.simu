@@ -1,0 +1,21 @@
+<circuit type="simulide_0.1">
+ 
+Node-7: 
+<item y="-532" hflip="1" id="Node-7" labely="-24" valLabelx="0" rotation="0" vflip="1" objectName="Node-7" itemtype="Node" valLabely="0" labelx="-16" Show_id="false" labelrot="0" valLabRot="0" x="-508"/>
+ 
+Fixed Volt.-2: 
+<item Voltage="5" x="-508" labelrot="0" valLabRot="0" itemtype="Fixed Voltage" valLabely="8" vflip="1" labelx="-64" id="Fixed Volt.-2" valLabelx="-16" Show_id="false" objectName="Fixed Volt.-2" labely="-24" y="-548" hflip="1" rotation="90" Unit=" V" Show_Volt="true"/>
+ 
+Diode-1: 
+<item y="-468" hflip="1" id="Diode-1" labely="-24" valLabelx="0" rotation="0" vflip="1" objectName="Diode-1" itemtype="Diode" Zener_Volt="0" valLabely="0" labelx="-16" Show_id="false" labelrot="0" valLabRot="0" x="-500" threshold="0.7"/>
+ 
+Connector-3: 
+<item startpinid="Fixed Volt.-2-outnod" x="-508" labelrot="0" valLabRot="0" itemtype="Connector" valLabely="0" vflip="1" labelx="-16" id="Connector-3" endpinid="Node-7-0" valLabelx="0" Show_id="false" enodeid="enode-9" objectName="Connector-3" labely="-24" y="-532" hflip="1" rotation="0" pointList="-508,-532,-508,-532"/>
+ 
+Connector-8: 
+<item startpinid="Node-7-2" x="-508" labelrot="0" valLabRot="0" itemtype="Connector" valLabely="0" vflip="1" labelx="-16" id="Connector-8" endpinid="Diode-1-lPin" valLabelx="0" Show_id="false" enodeid="enode-9" objectName="Connector-8" labely="-24" y="-532" hflip="1" rotation="0" pointList="-508,-532,-508,-524,-564,-524,-564,-468,-516,-468"/>
+ 
+Connector-9: 
+<item startpinid="Node-7-1" x="-508" labelrot="0" valLabRot="0" itemtype="Connector" valLabely="0" vflip="1" labelx="-16" id="Connector-9" endpinid="Diode-1-rPin" valLabelx="0" Show_id="false" enodeid="enode-9" objectName="Connector-9" labely="-24" y="-532" hflip="1" rotation="0" pointList="-508,-532,-508,-524,-460,-524,-460,-468,-484,-468"/>
+ 
+</circuit>
