@@ -55,11 +55,11 @@ void loop(){
 	//put your main code here, to run repeatedly
 	digitalWrite(greenLED,HIGH);
 	delay(fast);
-	digitalWrite(greenLED,HIGH);
+	digitalWrite(greenLED,LOW);
 	delay(fast);
 	digitalWrite(greenLED,HIGH);
 	delay(fast);
-	digitalWrite(greenLED,HIGH);
+	digitalWrite(greenLED,LOW);
 	delay(slow);
 }
 ```
